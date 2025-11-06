@@ -1,16 +1,16 @@
 [
   {
     "id": "1762095592563-3849",
-    "event": "divyam",
+    "event": "DSA Quiz",
     "day": "Monday",
     "start": "N/A",
     "end": "23:59",
     "type": "deadline",
-    "depends_on": "hi"
+    "depends_on": "DSA Study"
   },
   {
     "id": "1762095609495-8122",
-    "event": "shrimay",
+    "event": "Attending Webinar",
     "day": "Monday",
     "start": "12:00",
     "end": "13:00",
@@ -19,16 +19,16 @@
   },
   {
     "id": "1762095655399-5298",
-    "event": "siddh",
+    "event": "Extra Study",
     "day": "Friday",
     "start": "00:01",
     "end": "00:02",
     "type": "fixed",
-    "depends_on": "shrimay"
+    "depends_on": "Attending Webinar"
   },
   {
     "id": "1762095684962-2800",
-    "event": "vedant",
+    "event": "Go karting",
     "day": "Wednesday",
     "start": "N/A",
     "end": "23:59",
@@ -37,7 +37,7 @@
   },
   {
     "id": "1762231065262-522",
-    "event": "event",
+    "event": "FAT Preparation",
     "day": "Friday",
     "start": "22:00",
     "end": "23:00",
@@ -46,11 +46,47 @@
   },
   {
     "id": "1762357913729-5351",
-    "event": "hi",
+    "event": "DSA Study",
     "day": "Sunday",
     "start": "N/A",
     "end": "23:59",
     "type": "deadline",
+    "depends_on": null
+  },
+  {
+    "id": "1762446913892-4846",
+    "event": "Walk",
+    "day": "Saturday",
+    "start": "20:00",
+    "end": "21:00",
+    "type": "fixed",
+    "depends_on": null
+  },
+  {
+    "id": "1762446944798-4220",
+    "event": "Yoga and Exercise",
+    "day": "Thursday",
+    "start": "N/A",
+    "end": "23:59",
+    "type": "deadline",
+    "depends_on": null
+  },
+  {
+    "id": "1762447010405-9286",
+    "event": "Maths Assignment",
+    "day": "Sunday",
+    "start": "N/A",
+    "end": "23:59",
+    "type": "deadline",
+    "depends_on": "Maths Notes"
+  },
+  {
+    "id": "1762447046928-3257",
+    "event": "Maths Notes",
+    "day": "Friday",
+    "start": "00:07",
+    "end": "00:12",
+    "type": "fixed",
     "depends_on": null
   }
 ]
